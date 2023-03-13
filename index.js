@@ -234,7 +234,7 @@ console.log(color(tampilTanggal, "pink"));
 console.log(color(tampilWaktu, "pink"));
 console.log(color(tampilHari, "pink"));
 
-CFonts.say('Lightweight\nWhatsApp Aine Bot', {
+CFonts.say('Lightweight\nWhatsApp Saxia Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -284,7 +284,7 @@ function start(file) {
   })
   p.on('exit', (_, code) => {
     isRunning = false
-    console.error('Exited with code:', code)
+    console.error('Keluar dengan kode:', code)
     if (code === 0) return
     fs.watchFile(args[0], () => {
       fs.unwatchFile(args[0])
