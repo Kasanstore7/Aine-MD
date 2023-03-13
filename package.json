@@ -1,6 +1,6 @@
 {
-    "name": "Aine-Bot",
-    "version": "07.06.98",
+    "name": "Saxia-Bot",
+    "version": "1.0.0",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
     "main": "index.js",
